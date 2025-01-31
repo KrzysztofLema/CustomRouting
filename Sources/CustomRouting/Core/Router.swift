@@ -1,6 +1,6 @@
 import SwiftUI
 
-extension EnvironmentValues {
+public extension EnvironmentValues {
     @Entry var router: Router = MockRouter()
 }
 
